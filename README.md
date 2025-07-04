@@ -4,10 +4,11 @@
 #### 🔰overview
 
 - This is a responsive Pinterest-style login page built using HTML and CSS. It features a clean and modern design with a background image, user-friendly input fields for username and password, a “Remember me” checkbox, and a “Forgot password” link. The login button has hover and active effects, and the page includes a sign-up link for new users. It is fully responsive and adapts well on smaller devices.
-- ## Live Website
+ ## Live Website
 #### 🚀Experience Login page in Live!
 🔗Live Demo :
 [Pinterest Login page Live Link](https://bhuvan-anupoju.github.io/Pinterest-Login-Page/)
+- #### Note: The background is removed in the latest version of webpage
 ## Project Screenshot
 ![Screenshot of Project](https://github.com/user-attachments/assets/956fc2b5-2399-41be-b1be-a22b63685861)
 
