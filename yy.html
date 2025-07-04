@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://www.freepnglogos.com/uploads/pinterest-icon-transparent-background-5.png"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pinterest.com</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+      }
+
+      .wrapper {
+        width: 100%;
+        max-width: 420px;
+        background: whitesmoke;
+        color: black;
+        border-radius: 30px;
+        padding: 40px 30px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .wrapper h1 {
+        text-align: center;
+        color: rgb(214, 8, 8);
+        font-size: 60px;
+      }
+
+      .wrapper h2 {
+        text-align: center;
+        font-size: 32px;
+      }
+
+      .input-box {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+      }
+
+      .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: 2px solid black;
+        border-radius: 40px;
+        font-size: 16px;
+        padding: 20px 45px 20px 20px;
+        outline: none;
+        color: black;
+      }
+
+      .input-box input::placeholder {
+        color: black;
+      }
+
+      .input-box i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+      }
+
+      .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .remember-forgot label input {
+        accent-color: blue;
+        margin-right: 3px;
+      }
+
+      .remember-forgot a {
+        color: blue;
+        text-decoration: none;
+      }
+
+      .remember-forgot a:hover {
+        text-decoration: underline;
+      }
+
+      .btn {
+        width: 100%;
+        height: 45px;
+        background: rgb(219, 11, 11);
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px black;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+        transition: background 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: rgba(255, 0, 0, 0.815);
+      }
+
+      .btn:active {
+        background-color: black;
+      }
+
+      .register-link {
+        font-size: 14.5px;
+        text-align: center;
+        margin: 20px 0 15px;
+      }
+
+      .register-link p {
+        margin-top: 10px;
+      }
+
+      .register-link a {
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .register-link a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive */
+      @media (max-width: 480px) {
+        .wrapper {
+          padding: 30px 20px;
+        }
+
+        .wrapper h1 {
+          font-size: 50px;
+        }
+
+        .wrapper h2 {
+          font-size: 26px;
+        }
+
+        .btn {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="#">
+        <h1><i class="bx bxl-pinterest"></i></h1>
+        <h2>Welcome to Pinterest</h2>
+        <div class="input-box">
+          <input type="text" placeholder="Username" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Password" required />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox" />Remember me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register-link">
+          <p>
+            Don't have an account?
+            <a href="pinterest home page/index.html">Sign up</a>
+          </p>
+          <p>Designed by <a href="#">Bhuvan</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
