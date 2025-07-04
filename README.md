@@ -1,5 +1,5 @@
 
-# 📌 Pinterest Login Page ✨
+# 📌 Pinterest Login Page 
 
 #### 🔰overview
 
